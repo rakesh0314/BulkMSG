@@ -107,7 +107,7 @@
                                                         <div class="col-sm-8">
                                                             <div class="radio-inline">
                                                                 <label>
-                                                                    <input type="radio" name="Language">English</label>
+                                                                    <input type="radio" name="Language"> English</label>
                                                             </div>
                                                             <div class="radio-inline">
                                                                 <label>
@@ -127,7 +127,7 @@
                                         <input type="file" name="voiceFile" id="exampleInputFile" >
 
                                     </div>
-                                                   	<button type = "button"  name="sendvoiceTxt" class = "btn btn-primary">Send</button>
+                                                   	<button type="submit"  name="sendvoiceTxt" class = "btn btn-primary">Send</button>
                                                   	<button type = "button" class = "btn btn-success">View Report</button>
                                                 </form>
                                             </div>

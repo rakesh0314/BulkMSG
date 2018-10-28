@@ -63,9 +63,9 @@
                                                 <div class="w3agile-validation">
                                                     <div class="agile-validation agile_info_shadow">
                                                         <div class="my-div">
-                                                            <form method="post" action="#" class="valida" autocomplete="off" novalidate="novalidate">
-
-                                                             
+                                                            <form method="post"  action="admin/inc/insertData.php" method="post" enctype="multipart/form-data">
+                                                                 <input type="hidden" name="userId" value="1">
+                                                                                                                
                                                                 <div class="form-group">
                                                 <label for="radio">Choose Reason</label>
                                                 <div>
@@ -88,7 +88,7 @@
 
                                                                
                                                                 <p>
-                                                                    <input type="submit" name="sub-1" value="Send" class="btn btn-primary">
+                                                                    <input type="submit" name="querySend" value="Send" class="btn btn-primary">
                                                                    
                                                                 </p>
                                                             </form>
